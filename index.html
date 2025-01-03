@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio Website</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/resume pic.jpg" alt="Shashank " width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Shashank M Aradhya">Shashank M Aradhya</h1>
+
+          <p class="title">Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link" id="emailsize">shashankmaradhya@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">6360761060</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Feb 18, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Anekal, Bengaluru, Karnataka </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100008998180737" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/shashank-m-aradhya-569714260/" class="social-link">
+              <ion-icon name="logo-LinkedIn"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/name_is_shashu/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello, I'm Shashank M Aradhya currently i am pursuing my MCA degree at New Horizon College of Engineering.
+            I'm Fluent in classics like Java, Python and Web Development.
+          </p>
+
+          <p>
+            I have completed my UG (BCA) at Administrative Management College Bengaluru. I am a Passionate MCA Student who wants to build a career in Technology and Innovation.
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/java.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Java</h4>
+
+                <p class="service-item-text">
+                  My strength lies in Java programming, with a solid track record of developing robust and efficient Programs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  I have good Experience in the field of Web Development. I have Completed 3 projects which includes my final year UG project.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/python.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python</h4>
+
+                <p class="service-item-text">
+                  I Know Python programming and have a foundational understanding of data analytics, utilizing libraries for effective data manipulation and analysis.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/pbi.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">PowerBI</h4>
+
+                <p class="service-item-text">
+                  I am proficient in Power BI, having created several insightful dashboards, and I have completed a certification course to further enhance my skills in this tool. 
+                </p>
+              </div>
+
+            </li> 
+
+          </ul>
+
+        </section>
+
+
+        
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New Baldwin International School Anekal (CBSE)</h4>
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+                I Completed my 10th in the year 2019 with 70.83% in CBSE Stream.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Narayana PU College Hulimavu</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                I Completed my 2nd PUC (12th) in the year 2021 with 82% in PCMC Stream.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Administrative Management College </h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                I completed my UG (BCA) in the year 2024 with 82.6 CGPA (81.73%) at AMC College under Bangalore University.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New Horizon College of Engineering</h4>
+
+              <span>2024-2026</span>
+
+              <p class="timeline-text">
+                I'm currently pursuing my MCA degree at New Horizon College of Engineering. I'm right now at 1st Semester. I will be passed out in the year 2026.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Internship Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Web Development Internship</h4>
+
+              <span>30th March 2024 - 30th April 2024t</span>
+
+              <p class="timeline-text">
+                I have completed a 1 Month Offline Full Stack Web Development Internship at Prinston Smart Engineers. I have developed a SkillAssist(Edu Tech) Website which was given to me as my Internship Project By the Company and I was succesfull in completing the project.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analytics Internship</h4>
+
+              <span>18th Sept 2024 - 24th Oct 2024</span>
+
+              <p class="timeline-text">
+                I have completed a 1 Month Online Data Analytics Internship at Internship Studio. I have gained skills on Excel, PowerBI and Python and Essentional Libaries in the Internship.
+                I have analyzed the Test Data Test which was given by the company as Project and i am successful in completing the project and Obtaining the Certification.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+
+ <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Certifications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+             
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>certifications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>projects</button>
+              </li>
+            </ul>
+
+          </div>
+          
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="certifications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cer1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HTML Attributes and Tags</h3>
+
+                <p class="project-category">Great Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="certifications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cer2.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">React JS-Complete guide for Frontend Development [2024]</h3>
+
+                <p class="project-category">Udemy</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="certifications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cer3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PowerBI for Beginners</h3>
+
+                <p class="project-category">SimpliLearn</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="certifications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cer4.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Software Testing Tutorial</h3>
+
+                <p class="project-category">Great Learning</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="certifications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/is.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data Analytics</h3>
+
+                <p class="project-category">Internship (Internship Studio)</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="certifications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/prinston intern.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Full Stack Web Development</h3>
+
+                <p class="project-category">Internship (Prinston)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/drape1.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DrapeDreamz (ECommerce Website)</h3>
+
+                <p class="project-category">Final Year BCA Project</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/skillassist.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SkillAssist (EduTech Website)</h3>
+
+                <p class="project-category">Full Stack Internship Project</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio project.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">My Personal Portfolio Website</h3>
+
+                <p class="project-category">For LinkedIN</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+    
+   
+  
+</section>
+</article>
+</div>
+</main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
